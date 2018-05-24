@@ -62,7 +62,7 @@ bot.on('message', function (message) {
 
 })
 
-bot.login('YokenKey')
+bot.login('process.env.TOKEN')
 
 bot.on('message', message => {
 
